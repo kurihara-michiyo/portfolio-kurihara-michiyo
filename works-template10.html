@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WebデザイナーHanako Yamada ポートフォリオ">
+  <meta property="og:url" content="URLが入る">
+  <meta property="og:description" content="Hanako Yamadaのポートフォリオサイトです。">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Hanako Yamadaのポートフォリオサイトです">
+  <title>Michiyo Kurihara ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="canonical" href="URLが入る">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href="index.html">Michiyo's Portfolio</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="index.html#works">Works</a></li>
+            <li class="header-nav-item"><a href="index.html#skill">Skill</a></li>
+            <li class="header-nav-item"><a href="index.html#WorHistory">Work History</a>
+            </li>
+            <li class="header-nav-item"><a href="index.html#AboutMe">About me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- sub-main-visual -->
+      <div class="sub-main-visual">
+        <div class="sub-main-visual-img"></div>
+      </div>
+      <!-- /sub-main-visual -->
+
+      <article class="article">
+        <div class="article-inner">
+          <h2 class="article-title">ブロックブラスト(scratch)</h2>
+
+          <div class="article_area">
+            <div class="prev"><a href="works-template09.html">＜</a></div>
+            <div class="article-img" id="open">
+              <img src="img/scratch.jpg" alt="scratchのゲーム画面">
+            </div>
+            <div class="next"><a href="works-template.html">＞</a></div>
+          </div>
+
+
+          <div class="article-body">
+            <p>
+              生徒さんように作ったscratchのゲームです。<br>
+              ブロックを積み上げていくゲームで、ブロックを縦一列横一列全て埋めると消えるというゲームです。<br>
+              置けない回数が3回連続で続くとゲームオーバーになります。<br>
+            </p>
+            <h3 class="article-info-title">サイトプレビュー</h3>
+            <p>
+              <a href="https://scratch.mit.edu/projects/1307670417" target="_blank" rel="noopener">こちらをクリック</a>
+            </p>
+            <h3 class="article-info-title">制作時間</h3>
+            <p>
+
+            </p>
+            <h3 class="article-info-title">担当</h3>
+            <p>
+              構成、デザイン、ブロックの配置、ゲームのルール設定
+            </p>
+            <h3 class="article-info-title">使用ソフト</h3>
+            <p>
+              scratch
+            </p>
+            <h3 class="article-info-title">制作について</h3>
+            <p>
+              AIにゲームのルールを考えてもらい、scratchで制作しました。<br>
+              細かいルールや変数、ブロック定義などはAIに任せましたが、<br>
+              ところどころエラーやバグがあったため、何度も修正を加えたりして完成させました。
+            </p>
+
+          </div>
+
+
+          <div class="home-link">
+            <a href="index.html#works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+
+
+      <div class="modal_mask hidden" id="mask">
+        <div class="modal_close" id="close">×</div>
+      </div>
+
+      <div class="modal modal02 hidden">
+        <img src="img/lolita.jpg" alt="">
+      </div>
+
+
+
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Hanako Yamada</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/template.js"></script>
+</body>
+
+</html>
