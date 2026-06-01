@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーHanako Yamada ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='Hanako Yamadaのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Hanako Yamadaのポートフォリオサイトです" >
+  <title>Michiyo Kurihara ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" >
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" >
+  <link rel="shortcut icon" href="img/favicon.ico" >
+  <link rel=”canonical” href=”URLが入る” >
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href="index.html">Michiyo's Portfolio</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="index.html#works">Works</a></li>
+            <li class="header-nav-item"><a href="index.html#skill">Skill</a></li>
+            <li class="header-nav-item"><a href="index.html#WorHistory">Work History</a>
+            </li>
+            <li class="header-nav-item"><a href="index.html#AboutMe">About me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- sub-main-visual -->
+      <div class="sub-main-visual">
+        <div class="sub-main-visual-img"></div>
+      </div>
+      <!-- /sub-main-visual -->
+
+      <article class="article">
+        <div class="article-inner">
+          <h2 class="article-title">自作の占いサイト</h2>
+
+          <div class="article_area">
+            <div class="prev"><a href="works-template03.html">＜</a></div>
+            <div class="article-img" id="open">
+              <img src="img/tarots-sample.jpg" alt="">
+            </div>
+            <div class="next"><a href="works-template05.html">＞</a></div>
+          </div>
+
+          <div class="article-body">
+            <p>
+              ハローワーク訓練校でのWebページ制作での終了制作課題になります。<br>
+             自分でデザインカンプからWeb構成プログラムまで制作した作品となります。<br>
+              デザインカンプのデザインと異なるのは、カンプを作る際動画の背景がつけられず、静止画だとどうしても画像が違ってしまいそれぞれの画像に合う色をbackground-colorに設定しているため、完成デザインは異なります。<br>
+              PHPを使用しているので予約情報をSQLでデータベースに保存できます。
+            </p>
+            <h3 class="article-info-title">サイトプレビュー</h3>
+            <p><a href="http://yomichi0329.php.xdomain.jp/tarots-moro-/" target="_blank" rel="noopener">こちらをクリック</a>
+            </p>
+            <h3 class="article-info-title">GitHubソースコード</h3>
+            <p><a href="https://github.com/kurihara-michiyo/myPortfolio/tree/main/tarots-moro-" target="_blank" rel="noopener">こちらをクリック</a>
+            </p>
+            <h3 class="article-info-title">制作時間</h3>
+            <p>
+              40時間
+            </p>
+            <h3 class="article-info-title">担当</h3>
+            <p>デザイン、デザインカンプ、コーディング設計、コーディング</p>
+            <h3 class="article-info-title">デバイス対応</h3>
+            <p>
+              レスポンシブWebデザイン
+            </p>
+            <h3 class="article-info-title">画面設計</h3>
+            <p>PCファースト</p>
+            <h3 class="article-info-title">ブレイクポイント</h3>
+            <p>
+              最小767px
+            </p>
+            <h3 class="article-info-title">言語バージョン、エンコード</h3>
+            <p>
+              HTML5 / CSS3 / JavaScript / PHP / UTF-8 /Photoshop / Figma
+            </p>
+            <h3 class="article-info-title">対象ブラウザ</h3>
+            <p>
+              Chrome / Firefox / Edge / Safari
+            </p>
+            <h3 class="article-info-title">対象OS</h3>
+            <p>
+              iOS / Android / Windows / macOS
+            </p>
+          </div>
+          <div class="home-link">
+            <a href="index.html#works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+
+
+      <div class="modal_mask hidden" id="mask">
+        <div class="modal_close" id="close">×</div>
+      </div>
+
+      <div class="modal modal02 hidden">
+        <img src="img/tarots-design.jpg" alt="">
+      </div>
+
+
+
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Hanako Yamada</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/template.js"></script>
+</body>
+
+</html>
