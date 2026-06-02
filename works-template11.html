@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="WebデザイナーHanako Yamada ポートフォリオ">
+  <meta property="og:url" content="URLが入る">
+  <meta property="og:description" content="Hanako Yamadaのポートフォリオサイトです。">
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="Hanako Yamadaのポートフォリオサイトです">
+  <title>Michiyo Kurihara ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css">
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="canonical" href="URLが入る">
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="header-logo">
+          <a href="index.html">Michiyo's Portfolio</a>
+        </h1>
+        <nav class="header-nav">
+          <ul class="header-nav-list">
+            <li class="header-nav-item"><a href="index.html#works">Works</a></li>
+            <li class="header-nav-item"><a href="index.html#skill">Skill</a></li>
+            <li class="header-nav-item"><a href="index.html#WorHistory">Work History</a>
+            </li>
+            <li class="header-nav-item"><a href="index.html#AboutMe">About me</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- sub-main-visual -->
+      <div class="sub-main-visual">
+        <div class="sub-main-visual-img"></div>
+      </div>
+      <!-- /sub-main-visual -->
+
+      <article class="article">
+        <div class="article-inner">
+          <h2 class="article-title">ゲーム風画面</h2>
+
+          <div class="article_area">
+            <div class="prev"><a href="works-template10.html">＜</a></div>
+            <div class="article-img" id="open">
+              <video width="100%" height="100%" controls>
+                <source src="img/game-pv風_4-2.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="next"><a href="works-template.html">＞</a></div>
+          </div>
+
+
+          <div class="article-body">
+            <p>
+              Photoshopでゲーム風画面を作成しました。<br>
+              タイムライン機能を使用して、会話の流れを表現しています。<br>
+              もし今後バージョンアップをするなら選択時に音をつけたりしたいです。
+            </p>
+
+            <h3 class="article-info-title">制作時間</h3>
+            <p>
+              5時間程度
+            </p>
+            <h3 class="article-info-title">担当</h3>
+            <p>
+              構成、デザイン
+            </p>
+            <h3 class="article-info-title">使用ソフト</h3>
+            <p>
+              Photoshop
+            </p>
+            <h3 class="article-info-title">制作について</h3>
+            <p>
+              ゲーム好きなので自分の表現したい世界がこういう世界です<br>
+              ゲームの中で会話が流れていく感じを表現したかったので、タイムライン機能を使用して会話の流れを表現しました。<br>
+              あえてムービではなく一枚一枚の画像を並べて再生しているので、動画よりもゲームっぽさが出ていると思います。
+            </p>
+
+          </div>
+
+
+          <div class="home-link">
+            <a href="index.html#works">Works一覧へ</a>
+          </div>
+        </div>
+      </article>
+
+
+
+      <div class="modal_mask hidden" id="mask">
+        <div class="modal_close" id="close">×</div>
+      </div>
+
+      <div class="modal modal02 hidden">
+        <video width="100%" height="100%" controls>
+          <source src="img/game-pv風_4-2.mp4" type="video/mp4">
+        </video>
+      </div>
+
+
+
+
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;Hanako Yamada</div>
+    </footer>
+    <!-- /footer -->
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/template.js"></script>
+</body>
+
+</html>
