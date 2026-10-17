@@ -655,8 +655,29 @@ li {
   object-fit: fill;
 }
 
+.img12 {
+  background: url(../img/blender1.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 300px;
+  animation: cg-slide 27s infinite;
+}
 
-
+/* blender画像用スライドショー */
+@keyframes cg-slide {
+  0%, 9%          { background-image: url(../img/blender1.jpg); }
+  11.11%, 20.11%  { background-image: url(../img/blender2.jpg); }
+  22.22%, 31.22%  { background-image: url(../img/blender3.jpg); }
+  33.33%, 42.33%  { background-image: url(../img/blender4.jpg); }
+  44.44%, 53.44%  { background-image: url(../img/blender5.jpg); }
+  55.55%, 64.55%  { background-image: url(../img/blender6.jpg); }
+  66.66%, 75.66%  { background-image: url(../img/blender7.jpg); }
+  77.77%, 86.77%  { background-image: url(../img/blender8.jpg); }
+  88.88%, 97.88%  { background-image: url(../img/blender9.jpg); }
+  100%            { background-image: url(../img/blender1.jpg); }
+}
 
 
 
